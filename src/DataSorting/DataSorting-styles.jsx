@@ -1,3 +1,14 @@
+
+const headerStyles = {
+    headers: {
+        display: 'none',
+        position: 'absolute',
+        top: '50px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+    },
+};
+
 // data graph styles
 const dataStyles = {
     MainContainerStyles: {
@@ -73,4 +84,4 @@ const railStyles = {
 };
 
 
-export { dataStyles, buttonStyles, sliderStyles, railStyles }
+export { headerStyles, dataStyles, buttonStyles, sliderStyles, railStyles }

@@ -2,14 +2,14 @@ var webpack = require('webpack');
 var path = require('path');
 
 module.exports = {
-    entry: 'src/index.js',
+    entry: './src/index.js',
     output: {
         path: __dirname + '/public',
         publicPath: '/',
         filename: 'bundle.js'
     },
     devServer: {
-        contentBase: '/'
+        contentBase: './'
     },
     module: {
         rules: [

@@ -4,13 +4,13 @@ import { Slider, Tracks, Handles, Rail } from 'react-compound-slider';
 
 import Handle from './sliderbar/slider-handle.jsx';
 import Track from './sliderbar/slider-track.jsx';
-import { dataStyles, buttonStyles, sliderStyles, railStyles } from './DataSorting-styles.jsx';
+import { headerStyles, dataStyles, buttonStyles, sliderStyles, railStyles } from './DataSorting-styles.jsx';
 
 
 const DataSortingPresent = (props) => {
     return (
         <div style={dataStyles.MainContainerStyles}>
-            <div style={props.timeComplex ? {marginTop: '50px', display: 'block'} : {marginTop: '50px', display: 'none'}}>
+            <div style={props.timeComplex ? {...headerStyles, display: 'block'} : {...headerStyles, display: 'none'}}>
                 <h2>Time Complexity: <span style={{margin: '0 12px'}}/> {props.timeComplex}</h2>
             </div>
             
