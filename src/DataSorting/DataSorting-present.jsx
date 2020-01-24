@@ -10,7 +10,7 @@ import { headerStyles, dataStyles, buttonStyles, sliderStyles, railStyles } from
 const DataSortingPresent = (props) => {
     return (
         <div style={dataStyles.MainContainerStyles}>
-            <div style={props.timeComplex ? {...headerStyles, display: 'block'} : {...headerStyles, display: 'none'}}>
+            <div style={props.timeComplex ? {...headerStyles.headers, display: 'block'} : headerStyles.headers}>
                 <h2>Time Complexity: <span style={{margin: '0 12px'}}/> {props.timeComplex}</h2>
             </div>
             

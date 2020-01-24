@@ -5,8 +5,8 @@ const headerStyles = {
         position: 'absolute',
         top: '50px',
         left: '50%',
-        transform: 'translateX(-50%)',
-    },
+        transform: 'translateX(-50%)'
+    }
 };
 
 // data graph styles
